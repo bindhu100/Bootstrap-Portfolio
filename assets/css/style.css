@@ -61,11 +61,12 @@ body {
     color: red;
 } */
 
-#navbarNav #menu li a{
+.color #menu li a{
     color: 777777;
+    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
 }
 
-#navbarNav #menu li a:hover{
+.color #menu li a:hover{
     color: #4aaaa5;
 }/*color change while hover menu*/
 
@@ -155,6 +156,7 @@ p{
 
 label{
     color: #777777;
+    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
 }
 
 button{
