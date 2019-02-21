@@ -84,7 +84,7 @@ body {
 } /* main header(about---) */
 
 li+li{
-    border-left: 1px solid #cccccc;
+    /* border-left: 1px solid #cccccc; */
     
 }
 
@@ -172,7 +172,8 @@ background-color: #4aaaa5;
 color: #ffffff;
 bottom: 15px;
 /*margin: 0;*/
-height: 50px;
+/* height: 50px; */
+height: 60px;
 width: 300px;
 text-align: center;
 padding: 2%;
@@ -245,7 +246,7 @@ font-size: 1.5em
   
   .hovereffect a, .hovereffect p {
     color: #FFF;
-    opacity: 0;
+    /* opacity: 0; */
     filter: alpha(opacity=0);
     -webkit-transition: opacity 0.35s, -webkit-transform 0.45s;
     transition: opacity 0.35s, transform 0.45s;
@@ -274,7 +275,30 @@ font-size: 1.5em
       color: white;
   }
 
-  
+  /* Github button on image title */
+  a.btn.btn-secondary.btn-sm.active{
+      /* margin-left: 20px; */
+      float: right;
+      margin-top: 10px;
+      margin-right: 10px;
+      background-color: black;
+     
+  }
+
+  /* GitHub button on portfolio page, right side */
+  #GitHub{
+    /* margin-left: 300px; */
+    margin-left: 50px;
+    background-color: black;
+  }
+
+  /* GitHub button on portfolio page, right side */
+  /* .box-shadow{
+    box-shadow: 7px 5px 18px 1px rgba(26,12,12,0.81);
+    -webkit-box-shadow: 7px 5px 18px 1px rgba(26,12,12,0.81);
+    -moz-box-shadow: 7px 5px 18px 1px rgba(26,12,12,0.81);
+  }
+   */
 
 
 
